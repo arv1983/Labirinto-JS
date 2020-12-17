@@ -69,7 +69,7 @@ function mapMove(a, b) {
             console.log('ganhou')
 
             var para = document.createElement("P");
-            para.innerHTML = "Parabéns voce venceu!";
+            para.innerText = "Venceu!";
             document.getElementById("resultado").appendChild(para);
 
             pause();
