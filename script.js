@@ -67,6 +67,11 @@ function mapMove(a, b) {
     switch (map[x][y]) {
         case 'F':
             console.log('ganhou')
+
+            var para = document.createElement("P");
+            para.innerHTML = "Parabéns voce venceu!";
+            document.getElementById("resultado").appendChild(para);
+
             pause();
             break;
         case 'W':
