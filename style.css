@@ -1,0 +1,53 @@
+#box {
+    width: 30px;
+    height: 30px;
+    background: black;
+    left: 0px;
+    top: 270px;
+    background-image: url("kenzie.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    animation-duration: 100ms;
+    animation: move-highlight 4s;
+}
+
+body {
+    align-self: start;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+#W {
+    width: 30px;
+    height: 30px;
+    background: black;
+}
+
+#C {
+    width: 30px;
+    height: 30px;
+    background: rgb(218, 218, 218);
+}
+
+#S,
+#F {
+    width: 30px;
+    height: 30px;
+    background: blanchedalmond;
+}
+
+#lab {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 630px;
+    height: 450px;
+    background-color: blanchedalmond;
+    flex-wrap: wrap;
+    background-color: aqua;
+    margin: 0px auto;
+    align-items: center;
+}
