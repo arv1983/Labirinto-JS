@@ -3,103 +3,23 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+
+
+
     <!DOCTYPE html>
     <html>
 
     <head>
-
     </head>
 
     <body>
-
         <div class=fundo>
             <div id="lab">
                 <div id="box"></div>
             </div>
-
         </div>
-
     </body>
 
-
-
-
-    <script>
-        const map = [
-            "WWWWWWWWWWWWWWWWWWWWW",
-            "W   W     W     W W W",
-            "W W W WWW WWWWW W W W",
-            "W W W   W     W W   W",
-            "W WWWWWWW W WWW W W W",
-            "W         W     W W W",
-            "W WWW WWWWW WWWWW W W",
-            "W W   W   W W     W W",
-            "W WWWWW W W W WWW W F",
-            "S     W W W W W W WWW",
-            "WWWWW W W W W W W W W",
-            "W     W W W   W W W W",
-            "W WWWWWWW WWWWW W W W",
-            "W       W       W   W",
-            "WWWWWWWWWWWWWWWWWWWWW",
-        ];
-
-
-
-        for (let i = 0; i < map.length; i++) {
-
-            for (let a = 0; a < map[i].length; a++) {
-
-                var torre = document.createElement('div');
-                if (map[i][a] == ' ') {
-                    torre.setAttribute("id", 'C');
-                } else {
-                    torre.setAttribute("id", map[i][a]);
-                }
-
-                document.getElementById('lab').appendChild(torre);
-
-
-
-            }
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-        'use strict';
-
-        let boxTop = 270;
-        let boxLeft = 0;
-        document.addEventListener('keydown', (event) => {
-            const keyName = event.key;
-            console.log('keydown event\n\n' + 'key: ' + keyName);
-            if (keyName == 'ArrowDown') {
-                boxTop += 30;
-                console.log(boxTop)
-            }
-            if (keyName == 'ArrowUp') {
-                boxTop -= 30;
-                console.log(boxTop)
-            }
-            if (keyName == 'ArrowLeft') {
-                boxLeft -= 30;
-                console.log(boxTop)
-            }
-            if (keyName == 'ArrowRight') {
-                boxLeft += 30;
-                console.log(boxTop)
-            }
-            document.getElementById("box").style.top = boxTop + "px";
-            document.getElementById("box").style.left = boxLeft + "px";
-        });
-    </script>
+    <script src="script.js"></script>
 
     </html>

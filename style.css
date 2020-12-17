@@ -1,16 +1,14 @@
 #box {
-    width: 30px;
-    height: 30px;
+    width: 4vw;
+    height: 4vw;
     background: black;
-    left: 0px;
-    top: 270px;
+    left: 8vw;
+    top: 36vw;
     background-image: url("kenzie.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     position: absolute;
-    animation-duration: 100ms;
-    animation: move-highlight 4s;
 }
 
 body {
@@ -21,30 +19,32 @@ body {
 }
 
 #W {
-    width: 30px;
-    height: 30px;
+    width: 4vw;
+    height: 4vw;
     background: black;
 }
 
 #C {
-    width: 30px;
-    height: 30px;
+    display: flex;
+    width: 4vw;
+    height: 4vw;
     background: rgb(218, 218, 218);
 }
 
 #S,
 #F {
-    width: 30px;
-    height: 30px;
+    width: 4vw;
+    height: 4vw;
     background: blanchedalmond;
 }
 
 #lab {
-    position: relative;
+    columns: 4vw;
+    column-count: 46;
     display: flex;
     flex-direction: row;
-    width: 630px;
-    height: 450px;
+    width: 84vw;
+    height: 44vw;
     background-color: blanchedalmond;
     flex-wrap: wrap;
     background-color: aqua;
