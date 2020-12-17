@@ -44,10 +44,19 @@ body {
     display: flex;
     flex-direction: row;
     width: 84vw;
-    height: 44vw;
+    height: 60vw;
     background-color: blanchedalmond;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: darkgrey;
     margin: 0px auto;
     align-items: center;
+}
+
+#cronometro {
+    margin-left: 35vw;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-weight: bolder;
 }
